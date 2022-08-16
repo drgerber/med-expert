@@ -1,6 +1,7 @@
 import styles from './App.module.scss';
 import WorkFrame from "./WorkFrame";
 import Logo from "./Logo";
+import LinksButton from "./Links/LinksButton";
 
 function App() {
 
@@ -9,8 +10,7 @@ function App() {
       <div className={styles.header}>
           <Logo/>
           <ul className={styles.menu}>
-              <li>Пресеты</li>
-              <li>О программе</li>
+              <li><LinksButton>Пресеты</LinksButton></li>
           </ul>
       </div>
       <WorkFrame
